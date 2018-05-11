@@ -21,6 +21,7 @@ console.log('hola');
      
         $('.g-signin2').css('display','none');
         $('data').css('display','block');
+        $('#name').text(profile.getName());
         $('#pic').attr('src',profile.getImageUrl());
         $('#email').text(profile.getEmail());
       
